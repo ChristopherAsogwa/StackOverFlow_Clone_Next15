@@ -17,7 +17,11 @@ const spaceGrotesk = localFont({
 
 export const metadata: Metadata = {
   title: "Stackoverflow Clone - DevFlow",
-  description: "A Q&A platform for developers with AI-powered features.",
+  description:
+    "A community-powered platform where developers ask and answer programming questions. Learn, share expertise, and collaborate with programmers worldwide across topics like web and mobile development, algorithms, data structures, AI and more.",
+  icons: {
+    icon: "/images/site-logo.svg",
+  },
 };
 
 export default function RootLayout({
