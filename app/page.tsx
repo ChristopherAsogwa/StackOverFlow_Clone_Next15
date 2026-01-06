@@ -3,6 +3,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="text-dark200_light900 h1-bold">Welcome to my Stackoverflow Clone!</h1>
+      <h1 className="text-dark200_light900 h1-bold font-space-grotesk">Welcome to my Stackoverflow Clone!</h1>
     </div>
   );
 };
